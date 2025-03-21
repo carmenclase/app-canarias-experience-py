@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canarias Experience</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Canarias Experience <small class="text-white">(v{{ version }})</h1> 
+        <p>Descubre los mejores lugares y actividades en este paraíso natural</p>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='./img/tenerife-teresitas.jpg') }}" class="card-img-top" alt="Playa de Canarias">
+                    <div class="card-body">
+                        <h5 class="card-title">Playas de Ensueño</h5>
+                        <p class="card-text">Disfruta de las mejores playas de arena dorada y aguas cristalinas en Tenerife y Gran Canaria.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='./img/tenerife-teide.jpg') }}" class="card-img-top" alt="Volcán Teide">
+                    <div class="card-body">
+                        <h5 class="card-title">Ascenso al Teide</h5>
+                        <p class="card-text">Explora el Parque Nacional del Teide y disfruta de vistas desde la cumbre más alta de España.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='./img/tenerife-delfines.jpg') }}" class="card-img-top" alt="Avistamiento de delfines">
+                    <div class="card-body">
+                        <h5 class="card-title">Avistamiento de Delfines</h5>
+                        <p class="card-text">Realiza una excursión en barco para ver delfines y ballenas en su hábitat natural cerca de La Gomera.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='./img/tenerife-roques-de-anaga.jpg') }}" class="card-img-top" alt="Senderismo en Anaga">
+                    <div class="card-body">
+                        <h5 class="card-title">Senderismo en Anaga</h5>
+                        <p class="card-text">Descubre los senderos del Parque Rural de Anaga y maravíllate con su naturaleza exuberante.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='./img/tenerife-cueva-del-viento.jpg') }}" class="card-img-top" alt="Cueva del Viento">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploración en la Cueva del Viento</h5>
+                        <p class="card-text">Visita uno de los tubos volcánicos más grandes del mundo en Tenerife.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='./img/fuerteventura-surf.jpg') }}" class="card-img-top" alt="Surf en Fuerteventura">
+                    <div class="card-body">
+                        <h5 class="card-title">Surf en Fuerteventura</h5>
+                        <p class="card-text">Disfruta de las mejores olas y aprende a surfear en la isla del viento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Explora Canarias - Descubre el paraíso</small></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
