@@ -47,7 +47,7 @@ docker stop app-canarias-experience-py
 docker rm app-canarias-experience-py
 ```
 
-### Probar la aplicación en local
+## Probar la aplicación en local
 
 Acceder a la URL http://localhost:5000 a través del navegador web:
 
@@ -56,3 +56,4 @@ A travé de la terminal ejecutar el comando `curl`:
 ```bash
 curl http://localhost:5000
 ```
+
