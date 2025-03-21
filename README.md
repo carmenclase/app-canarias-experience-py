@@ -13,9 +13,9 @@ Aplicación Flask y Bootstrap que muestra un listado de los sitios más atractiv
 ### Crear entorno virtual e instalar dependencias
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Ejecutar la aplicación
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## En la terminal:
 
 ```bash
-python app.py
+python3 app.py
 ```
 
 ## Ejecución con Docker
@@ -46,3 +46,4 @@ Para borrar la caché de Docker Compose:
 docker stop app-canarias-experience-py
 docker rm app-canarias-experience-py
 ```
+
