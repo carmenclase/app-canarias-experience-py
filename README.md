@@ -43,6 +43,6 @@ docker run -d -p 5000:5000 --name app-canarias-experience-py app-canarias-experi
 Para borrar la caché de Docker Compose:
 
 ```bash
-docker-compose stop app-canarias-experience-py
-docker-compose rm app-canarias-experience-py
+docker stop app-canarias-experience-py
+docker rm app-canarias-experience-py
 ```
